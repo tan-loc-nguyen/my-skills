@@ -1,7 +1,9 @@
 ---
-name: tan:learn
-description: Use when wanting to understand a codebase, feature, system, or area of code through guided learning. Triggers on "learn", "teach me", "walk me through", "how does this work", "onboard me", or when the user wants structured understanding of code rather than just an explanation.
-argument-hint: [area/feature/system to learn] [--quick | --deep]
+name: "tan:learn"
+description: >-
+  Use when wanting to understand a codebase, feature, system, or area of code through guided learning.
+  Triggers on "learn", "teach me", "walk me through", "how does this work", "onboard me", or when the user wants structured understanding of code rather than just an explanation.
+argument-hint: "[area/feature/system to learn] [--quick | --deep]"
 disable-model-invocation: true
 ---
 

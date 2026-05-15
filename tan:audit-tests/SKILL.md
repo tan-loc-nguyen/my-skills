@@ -1,7 +1,11 @@
 ---
-name: tan:audit-tests
-description: Use to audit test quality and coverage for any backend codebase. Detects coverage gaps, over-mocked tests, low-signal assertions, and missing edge cases. Auto-detects the project's test framework and conventions. Produces a prioritized report and optionally fixes the top findings via PR. Triggers on "audit tests", "test quality", "test gaps", or when scheduled as a routine.
-argument-hint: [path/to/scope] [--report-only | --fix]
+name: "tan:audit-tests"
+description: >-
+  Use to audit test quality and coverage for any backend codebase. Detects coverage gaps, over-mocked tests,
+  low-signal assertions, and missing edge cases. Auto-detects the project's test framework and conventions.
+  Produces a prioritized report and optionally fixes the top findings via PR. Triggers on "audit tests",
+  "test quality", "test gaps", or when scheduled as a routine.
+argument-hint: "[path/to/scope] [--report-only | --fix]"
 disable-model-invocation: true
 ---
 
